@@ -204,3 +204,19 @@ df5
 ![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/image%206.jpg)
 ## Data Scaling using RobustScaler:
 ![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/image%207.jpg)
+
+## Encoding.csv
+## Initial Dataset:
+![output]()
+## Binary Encoding:
+![output]()
+## Encoded Dataset:
+![output]()
+## Data Scaling using MinMaxScaler:
+![output]()
+## Data Scaling using StandardScaler:
+![output]()
+## Data Scaling using MaxAbsScaler:
+![output]()
+## Data Scaling using RobustScaler:
+![output]()
