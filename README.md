@@ -191,16 +191,16 @@ df5
 # OUPUT
 ## Data.csv
 ## Initial Dataset:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/image%201.jpg)
 ## Binary Encoding:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/image%202.jpg)
 ## Encoded Dataset:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/image%203.jpg)
 ## Data Sclaing using MinMaxScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/image%204.jpg)
 ## Data Scaling using StandaraScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/image%205.jpg)
 ## Data Scaling using MaxAbsScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/image%206.jpg)
 ## Data Scaling using RobustScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/image%207.jpg)
