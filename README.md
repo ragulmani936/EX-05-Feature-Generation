@@ -132,4 +132,60 @@ sc3=RobustScaler()
 df4=pd.DataFrame(sc3.fit_transform(df1),columns=['id', 'bin_1', 'bin_2', 'nom_0','ord_2'])
 df4
 ~~~
+## Titanic.csv
+~~~
+import pandas as pd
+df=pd.read_csv("titanic_dataset.csv")
+df
+
+#removing unwanted data
+df.drop("Name",axis=1,inplace=True)
+df.drop("Ticket",axis=1,inplace=True)
+df.drop("Cabin",axis=1,inplace=True)
+
+#data cleaning
+df.isnull().sum()
+
+df["Age"]=df["Age"].fillna(df["Age"].median())
+df["Embarked"]=df["Embarked"].fillna(df["Embarked"].mode()[0])
+
+df.isnull().sum()
+
+df
+
+#feature encoding
+from category_encoders import BinaryEncoder
+be=BinaryEncoder()
+df["Sex"]=be.fit_transform(df[["Sex"]])
+ndf=be.fit_transform(df["Sex"])
+ndf
+
+df1=df.copy()
+from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
+embark=['S','C','Q']
+e1=OrdinalEncoder(categories=[embark])
+df1['Embarked'] = e1.fit_transform(df[['Embarked']])
+df1
+
+#feature scaling
+from sklearn.preprocessing import MinMaxScaler
+sc=MinMaxScaler()
+df2=pd.DataFrame(sc.fit_transform(df1),columns=['Passenger','Survived','Pclass','Sex','Age','SibSp','Parch','Fare','Embarked'])
+df2
+
+from sklearn.preprocessing import StandardScaler
+sc1=StandardScaler()
+df3=pd.DataFrame(sc1.fit_transform(df1),columns=['Passenger','Survived','Pclass','Sex','Age','SibSp','Parch','Fare','Embarked'])
+df3
+
+from sklearn.preprocessing import MaxAbsScaler
+sc2=MaxAbsScaler()
+df4=pd.DataFrame(sc2.fit_transform(df1),columns=['Passenger','Survived','Pclass','Sex','Age','SibSp','Parch','Fare','Embarked'])
+df4
+
+from sklearn.preprocessing import RobustScaler
+sc3=RobustScaler()
+df5=pd.DataFrame(sc3.fit_transform(df1),columns=['Passenger','Survived','Pclass','Sex','Age','SibSp','Parch','Fare','Embarked'])
+df5
+~~~
 # OUPUT
