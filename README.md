@@ -189,3 +189,18 @@ df5=pd.DataFrame(sc3.fit_transform(df1),columns=['Passenger','Survived','Pclass'
 df5
 ~~~
 # OUPUT
+## Data.csv
+## Initial Dataset:
+![output]()
+## Binary Encoding:
+![output]()
+## Encoded Dataset:
+![output]()
+## Data Sclaing using MinMaxScaler:
+![output]()
+## Data Scaling using StandaraScaler:
+![output]()
+##Data Scaling using MaxAbsScaler:
+![output]()
+## Data Scaling using RobustScaler:
+![output]()
