@@ -200,7 +200,7 @@ df5
 ![output]()
 ## Data Scaling using StandaraScaler:
 ![output]()
-##Data Scaling using MaxAbsScaler:
+## Data Scaling using MaxAbsScaler:
 ![output]()
 ## Data Scaling using RobustScaler:
 ![output]()
