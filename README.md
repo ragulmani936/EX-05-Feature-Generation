@@ -191,54 +191,54 @@ df5
 # OUPUT
 ## Data.csv
 ## Initial Dataset:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d1.jpg)
 ## Binary Encoding:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d2.jpg)
 ## Encoded Dataset:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d3.jpg)
 ## Data Sclaing using MinMaxScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d4.jpg)
 ## Data Scaling using StandaraScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d5.jpg)
 ## Data Scaling using MaxAbsScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d6.jpg)
 ## Data Scaling using RobustScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d7.jpg)
 
 ## Encoding.csv
 ## Initial Dataset:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d8.jpg)
 ## Binary Encoding:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d9.jpg)
 ## Encoded Dataset:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d10.jpg)
 ## Data Scaling using MinMaxScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d11.jpg)
 ## Data Scaling using StandardScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d12.jpg)
 ## Data Scaling using MaxAbsScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d13.jpg)
 ## Data Scaling using RobustScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d14.jpg)
 
 ## Titanic.csv
 ## Initial Dataset:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d15.jpg)
 ## Data cleaning before encoding:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d16.jpg)
 ## Cleaned Dataset:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d17.jpg)
 ## Binary Encoding:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d18.jpg)
 ## Encoded Dataset:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d19.jpg)
 ## Data Scaling using MinMaxScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d20.jpg)
 ## Data Scaling using StandardScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d21.jpg)
 ## Data Scaling using MaxAbsScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d22.jpg)
 ## Data Scaling using RobustScaler:
-![output]()
+![output](https://github.com/ragulmani936/EX-05-Feature-Generation/blob/main/d23.jpg)
 ## RESULT:
 Feature Generation process and Feature Scaling process is applied to the given data frames sucessfully.
